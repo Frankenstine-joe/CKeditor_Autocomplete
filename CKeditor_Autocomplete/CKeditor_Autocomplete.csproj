@@ -235,6 +235,7 @@
     <Content Include="ckeditor\plugins\about\dialogs\about.js" />
     <Content Include="ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" />
     <Content Include="ckeditor\plugins\about\dialogs\logo_ckeditor.png" />
+    <Content Include="ckeditor\plugins\autocomplete\plugin.js" />
     <Content Include="ckeditor\plugins\dialog\dialogDefinition.js" />
     <Content Include="ckeditor\plugins\icons.png" />
     <Content Include="ckeditor\plugins\icons_hidpi.png" />
@@ -315,6 +316,7 @@
     <Content Include="ckeditor\plugins\tableselection\styles\tableselection.css" />
     <Content Include="ckeditor\plugins\tabletools\dialogs\tableCell.js" />
     <Content Include="ckeditor\plugins\table\dialogs\table.js" />
+    <Content Include="ckeditor\plugins\timestamp\plugin.js" />
     <Content Include="ckeditor\plugins\wsc\dialogs\ciframe.html" />
     <Content Include="ckeditor\plugins\wsc\dialogs\tmpFrameset.html" />
     <Content Include="ckeditor\plugins\wsc\dialogs\wsc.css" />
@@ -404,6 +406,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ckeditor\plugins\timestamp\icons\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
